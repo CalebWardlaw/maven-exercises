@@ -9,6 +9,9 @@ public class MainMaven {
 
         System.out.print("What is your full name?\n");
         String userString = userInput.nextLine();
+
+        System.out.println("Contains Digits:" + StringUtils.isNumeric(userString));
+        System.out.println("Swap Case: " + StringUtils.swapCase(userString));
         System.out.println("Reverse: " + StringUtils.reverse(userString));
     }
 
